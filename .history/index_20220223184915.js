@@ -21,19 +21,16 @@ let difference = subtract(x, y);
 let product = multiply(x, y);
 let avg = average(x, y);
 
-const para1 = document.createElement("p");
-const para2 = document.createElement("p");
-const para3 = document.createElement("p");
-const para4 = document.createElement("p");
+const para = document.createElement("p");
 // prettier-ignore
-para1.innerText = "The sum of " + x + " and " + y + " is " + sum + ".";
-document.body.appendChild(para1);
-para2.innerText = "The difference of " + x + " and " + y + " is " + difference + ".";
-document.body.appendChild(para2);
-para3.innerText = "The product of " + x + " and " + y + " is " + product + ".";
-document.body.appendChild(para3);
-para4.innerText = "The average of " + x + " and " + y + " is " + avg + ".";
-document.body.appendChild(para4);
+para.innerText = "The sum of " + x + " and " + y + " is " + sum + ".";
+document.body.appendChild(para);
+para.innerText = "The difference of " + x + " and " + y + " is " + difference + ".";
+document.body.appendChild(para);
+para.innerText = "The product of " + x + " and " + y + " is " + product + ".";
+document.body.appendChild(para);
+para.innerText = "The average of " + x + " and " + y + " is " + avg + ".";
+document.body.appendChild(para);
 
 // document.write("<p>The sum of " + x + " and " + y + " is " + sum + "</p>");
 // document.write("<p>The difference of " + x + " and " + y + " is " + difference + "</p>");
